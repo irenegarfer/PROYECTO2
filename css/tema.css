@@ -2,5 +2,35 @@
    EQUIPO 2: Identidad visual, variables de color y tipografía
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+:root {
+  /* Paleta Escuelas Saludables */
+  --bg-page: #f0fdf4;
+  --bg-card: #ffffff;
+  --bg-soft: #ecfdf5;
+  --text-main: #1e293b;
+  --text-muted: #475569;
+  --accent-primary: #16a34a;
+  --accent-primary-dark: #15803d;
+  --accent-highlight: #0d9488;
+  --border-color: #d1fae5;
+
+  /* Tipografía */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Bordes y sombras */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-card: 0 10px 25px -5px rgba(21, 128, 61, 0.08), 0 4px 10px -6px rgba(15, 23, 42, 0.06);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 
  
